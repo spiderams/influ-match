@@ -65,3 +65,13 @@ npm start
 
 Par défaut, le frontend tourne sur http://localhost:3001
 Et appelle le backend sur http://localhost:3000
+
+🧑‍💻 Auteur
+Projet développé avec ❤️ par @spiderams
+
+📄 Licence
+Ce projet est open-source sous licence MIT.
+
+---
+
+Souhaites-tu que je te le dépose directement dans un fichier `README.md` prêt à commit dans ton projet ?
