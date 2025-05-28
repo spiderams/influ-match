@@ -1,0 +1,22 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Channel {
+  id           String   @id
+  name         String
+  subscribers  BigInt
+  views        BigInt
+  videos       Int
+  score        Int
+  engagement   Int?         // ✅ Ajout ici (taux en %)
+  categorie    String?      // ✅ Pour filtrer / tagger
+  createdAt    DateTime @default(now())
+}
+
+
